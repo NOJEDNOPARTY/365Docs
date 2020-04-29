@@ -859,6 +859,14 @@ h1 {
 	text-align: center;
 	color: #344461;
 }
+
+.plan-item-type-line {
+    min-width: 189px;
+    margin-bottom: 26px;
+    padding-bottom: 31px;
+    border-bottom: 1px solid #E3E3E3;
+}
+
 .plan-item-price {
     margin-bottom: 30px;
     padding-bottom: 33px;
@@ -877,6 +885,12 @@ h1 {
 	line-height: 22px;
 	text-align: center;
 	color: #888787;
+}
+
+.plan-item-partner p {    
+	margin-bottom: 33px;
+	font-family: 'Montserrat-Regular';
+	color: #344461;
 }
 
 .plan .btn {
@@ -1480,6 +1494,8 @@ header.open .menu-trigger span:nth-child(2) {display: none;}
 
 header.open .menu-trigger span:nth-child(3) {transform: rotate(40deg);}
 
+.banner-img {display: none;}
+
 @media(max-width: 1850px) {
 	.banner {
 		padding: 77px 0 160px;
@@ -1497,6 +1513,12 @@ header.open .menu-trigger span:nth-child(3) {transform: rotate(40deg);}
 }
 @media(max-width: 1200px) {
 	.banner {background-image: none !important;}
+	.banner-img {
+		display: block;
+		max-width: 500px;
+		margin: 40px auto 0;
+	}
+	.banner-img img {width:100%;}
 	.benefits {max-width: 100%;}
 	nav a {
 		font-size: 14px;
