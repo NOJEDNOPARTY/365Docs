@@ -604,7 +604,7 @@ h1 {
     font-family: 'Montserrat-SemiBold';
 	font-size: 35px;
 	line-height: 43px;
-	background: -webkit-linear-gradient(#EEB67A, #BC8B56);
+	background: -webkit-linear-gradient(301.38deg, #EC7A8F 20.16%, #FCAF8C 94.53%);;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1065,11 +1065,11 @@ h1 {
 }
 
 .reviews-slider .owl-nav button {
-	width: 20px;
-	height: 14px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
+    width: 24px;
+    height: 15px;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
 }
 
 .reviews-slider .owl-nav button  span {display: none;}
